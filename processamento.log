@@ -1,112 +1,30 @@
-2025-04-18 13:00:31,955 - DEBUG - Starting new HTTPS connection (1): api.instabuy.com.br:443
-2025-04-18 13:00:33,273 - DEBUG - https://api.instabuy.com.br:443 "PUT /store/products HTTP/1.1" 200 None
-2025-04-18 13:00:33,274 - INFO - Lote 1 enviado com sucesso.
-2025-04-18 13:00:33,279 - DEBUG - Starting new HTTPS connection (1): api.instabuy.com.br:443
-2025-04-18 13:00:34,490 - DEBUG - https://api.instabuy.com.br:443 "PUT /store/products HTTP/1.1" 200 None
-2025-04-18 13:00:34,491 - INFO - Lote 2 enviado com sucesso.
-2025-04-18 13:00:34,500 - DEBUG - Starting new HTTPS connection (1): api.instabuy.com.br:443
-2025-04-18 13:00:35,755 - DEBUG - https://api.instabuy.com.br:443 "PUT /store/products HTTP/1.1" 200 None
-2025-04-18 13:00:35,759 - INFO - Lote 3 enviado com sucesso.
-2025-04-18 13:00:35,773 - DEBUG - Starting new HTTPS connection (1): api.instabuy.com.br:443
-2025-04-18 13:00:40,759 - DEBUG - https://api.instabuy.com.br:443 "PUT /store/products HTTP/1.1" 200 None
-2025-04-18 13:00:40,762 - INFO - Lote 4 enviado com sucesso.
-2025-04-18 13:00:40,773 - DEBUG - Starting new HTTPS connection (1): api.instabuy.com.br:443
-2025-04-18 13:00:42,042 - DEBUG - https://api.instabuy.com.br:443 "PUT /store/products HTTP/1.1" 200 None
-2025-04-18 13:00:42,043 - INFO - Lote 5 enviado com sucesso.
-2025-04-18 13:00:42,048 - DEBUG - Starting new HTTPS connection (1): api.instabuy.com.br:443
-2025-04-18 13:00:43,660 - DEBUG - https://api.instabuy.com.br:443 "PUT /store/products HTTP/1.1" 200 None
-2025-04-18 13:00:43,661 - INFO - Lote 6 enviado com sucesso.
-2025-04-18 13:00:43,666 - DEBUG - Starting new HTTPS connection (1): api.instabuy.com.br:443
-2025-04-18 13:00:44,920 - DEBUG - https://api.instabuy.com.br:443 "PUT /store/products HTTP/1.1" 200 None
-2025-04-18 13:00:44,923 - INFO - Lote 7 enviado com sucesso.
-2025-04-18 13:00:44,938 - DEBUG - Starting new HTTPS connection (1): api.instabuy.com.br:443
-2025-04-18 13:00:46,181 - DEBUG - https://api.instabuy.com.br:443 "PUT /store/products HTTP/1.1" 200 None
-2025-04-18 13:00:46,182 - INFO - Lote 8 enviado com sucesso.
-2025-04-18 13:00:46,183 - DEBUG - Starting new HTTPS connection (1): api.instabuy.com.br:443
-2025-04-18 13:00:46,779 - DEBUG - https://api.instabuy.com.br:443 "PUT /store/products HTTP/1.1" 200 None
-2025-04-18 13:00:46,782 - INFO - Lote 9 enviado com sucesso.
-2025-04-19 19:35:33,439 - DEBUG - Starting new HTTPS connection (1): api.instabuy.com.br:443
-2025-04-19 19:35:34,708 - DEBUG - https://api.instabuy.com.br:443 "PUT /store/products HTTP/1.1" 200 None
-2025-04-19 19:35:34,710 - INFO - Batch 1 sent succesfully.
-2025-04-19 19:35:34,724 - DEBUG - Starting new HTTPS connection (1): api.instabuy.com.br:443
-2025-04-19 19:35:35,986 - DEBUG - https://api.instabuy.com.br:443 "PUT /store/products HTTP/1.1" 200 None
-2025-04-19 19:35:35,988 - INFO - Batch 2 sent succesfully.
-2025-04-19 19:35:36,000 - DEBUG - Starting new HTTPS connection (1): api.instabuy.com.br:443
-2025-04-19 19:35:37,251 - DEBUG - https://api.instabuy.com.br:443 "PUT /store/products HTTP/1.1" 200 None
-2025-04-19 19:35:37,253 - INFO - Batch 3 sent succesfully.
-2025-04-19 19:35:37,264 - DEBUG - Starting new HTTPS connection (1): api.instabuy.com.br:443
-2025-04-19 19:35:38,560 - DEBUG - https://api.instabuy.com.br:443 "PUT /store/products HTTP/1.1" 200 None
-2025-04-19 19:35:38,563 - INFO - Batch 4 sent succesfully.
-2025-04-19 19:35:38,583 - DEBUG - Starting new HTTPS connection (1): api.instabuy.com.br:443
-2025-04-19 19:35:40,003 - DEBUG - https://api.instabuy.com.br:443 "PUT /store/products HTTP/1.1" 200 None
-2025-04-19 19:35:40,006 - INFO - Batch 5 sent succesfully.
-2025-04-19 19:35:40,023 - DEBUG - Starting new HTTPS connection (1): api.instabuy.com.br:443
-2025-04-19 19:35:41,281 - DEBUG - https://api.instabuy.com.br:443 "PUT /store/products HTTP/1.1" 200 None
-2025-04-19 19:35:41,282 - INFO - Batch 6 sent succesfully.
-2025-04-19 19:35:41,287 - DEBUG - Starting new HTTPS connection (1): api.instabuy.com.br:443
-2025-04-19 19:35:45,982 - DEBUG - https://api.instabuy.com.br:443 "PUT /store/products HTTP/1.1" 200 None
-2025-04-19 19:35:45,986 - INFO - Batch 7 sent succesfully.
-2025-04-19 19:35:46,002 - DEBUG - Starting new HTTPS connection (1): api.instabuy.com.br:443
-2025-04-19 19:35:47,259 - DEBUG - https://api.instabuy.com.br:443 "PUT /store/products HTTP/1.1" 200 None
-2025-04-19 19:35:47,261 - INFO - Batch 8 sent succesfully.
-2025-04-19 19:35:47,262 - DEBUG - Starting new HTTPS connection (1): api.instabuy.com.br:443
-2025-04-19 19:35:47,888 - DEBUG - https://api.instabuy.com.br:443 "PUT /store/products HTTP/1.1" 200 None
-2025-04-19 19:35:47,892 - INFO - Batch 9 sent succesfully.
-2025-04-19 20:04:08,333 - DEBUG - Starting new HTTPS connection (1): api.instabuy.com.br:443
-2025-04-19 20:04:09,818 - DEBUG - https://api.instabuy.com.br:443 "PUT /store/products HTTP/1.1" 200 None
-2025-04-19 20:04:09,818 - INFO - Batch 1 sent succesfully.
-2025-04-19 20:04:09,825 - DEBUG - Starting new HTTPS connection (1): api.instabuy.com.br:443
-2025-04-19 20:04:11,111 - DEBUG - https://api.instabuy.com.br:443 "PUT /store/products HTTP/1.1" 200 None
-2025-04-19 20:04:11,112 - INFO - Batch 2 sent succesfully.
-2025-04-19 20:04:11,118 - DEBUG - Starting new HTTPS connection (1): api.instabuy.com.br:443
-2025-04-19 20:04:12,393 - DEBUG - https://api.instabuy.com.br:443 "PUT /store/products HTTP/1.1" 200 None
-2025-04-19 20:04:12,394 - INFO - Batch 3 sent succesfully.
-2025-04-19 20:04:12,400 - DEBUG - Starting new HTTPS connection (1): api.instabuy.com.br:443
-2025-04-19 20:04:13,659 - DEBUG - https://api.instabuy.com.br:443 "PUT /store/products HTTP/1.1" 200 None
-2025-04-19 20:04:13,661 - INFO - Batch 4 sent succesfully.
-2025-04-19 20:04:13,668 - DEBUG - Starting new HTTPS connection (1): api.instabuy.com.br:443
-2025-04-19 20:04:15,175 - DEBUG - https://api.instabuy.com.br:443 "PUT /store/products HTTP/1.1" 200 None
-2025-04-19 20:04:15,176 - INFO - Batch 5 sent succesfully.
-2025-04-19 20:04:15,183 - DEBUG - Starting new HTTPS connection (1): api.instabuy.com.br:443
-2025-04-19 20:04:16,464 - DEBUG - https://api.instabuy.com.br:443 "PUT /store/products HTTP/1.1" 200 None
-2025-04-19 20:04:16,465 - INFO - Batch 6 sent succesfully.
-2025-04-19 20:04:16,472 - DEBUG - Starting new HTTPS connection (1): api.instabuy.com.br:443
-2025-04-19 20:04:18,247 - DEBUG - https://api.instabuy.com.br:443 "PUT /store/products HTTP/1.1" 200 None
-2025-04-19 20:04:18,248 - INFO - Batch 7 sent succesfully.
-2025-04-19 20:04:18,253 - DEBUG - Starting new HTTPS connection (1): api.instabuy.com.br:443
-2025-04-19 20:04:19,793 - DEBUG - https://api.instabuy.com.br:443 "PUT /store/products HTTP/1.1" 200 None
-2025-04-19 20:04:19,796 - INFO - Batch 8 sent succesfully.
-2025-04-19 20:04:19,800 - DEBUG - Starting new HTTPS connection (1): api.instabuy.com.br:443
-2025-04-19 20:04:20,461 - DEBUG - https://api.instabuy.com.br:443 "PUT /store/products HTTP/1.1" 200 None
-2025-04-19 20:04:20,463 - INFO - Batch 9 sent succesfully.
-2025-04-19 23:32:08,903 - WARNING - python-dotenv could not parse statement starting at line 1
-2025-04-19 23:32:08,905 - WARNING - python-dotenv could not parse statement starting at line 2
-2025-04-19 23:32:08,905 - WARNING - python-dotenv could not parse statement starting at line 3
-2025-04-19 23:32:08,906 - WARNING - python-dotenv could not parse statement starting at line 4
-2025-04-19 23:32:08,931 - DEBUG - Starting new HTTPS connection (1): api.instabuy.com.br:443
-2025-04-19 23:32:10,527 - DEBUG - https://api.instabuy.com.br:443 "PUT /store/products HTTP/1.1" 200 None
-2025-04-19 23:32:10,537 - INFO - Batch 1 sent succesfully.
-2025-04-19 23:32:10,580 - DEBUG - Starting new HTTPS connection (1): api.instabuy.com.br:443
-2025-04-19 23:32:12,060 - DEBUG - https://api.instabuy.com.br:443 "PUT /store/products HTTP/1.1" 200 None
-2025-04-19 23:32:12,063 - INFO - Batch 2 sent succesfully.
-2025-04-19 23:32:12,096 - DEBUG - Starting new HTTPS connection (1): api.instabuy.com.br:443
-2025-04-19 23:32:13,579 - DEBUG - https://api.instabuy.com.br:443 "PUT /store/products HTTP/1.1" 200 None
-2025-04-19 23:32:13,583 - INFO - Batch 3 sent succesfully.
-2025-04-19 23:32:13,621 - DEBUG - Starting new HTTPS connection (1): api.instabuy.com.br:443
-2025-04-19 23:32:16,135 - DEBUG - https://api.instabuy.com.br:443 "PUT /store/products HTTP/1.1" 200 None
-2025-04-19 23:32:16,137 - INFO - Batch 4 sent succesfully.
-2025-04-19 23:32:16,156 - DEBUG - Starting new HTTPS connection (1): api.instabuy.com.br:443
-2025-04-19 23:32:17,623 - DEBUG - https://api.instabuy.com.br:443 "PUT /store/products HTTP/1.1" 200 None
-2025-04-19 23:32:17,626 - INFO - Batch 5 sent succesfully.
-2025-04-19 23:32:17,661 - DEBUG - Starting new HTTPS connection (1): api.instabuy.com.br:443
-2025-04-19 23:32:19,256 - DEBUG - https://api.instabuy.com.br:443 "PUT /store/products HTTP/1.1" 200 None
-2025-04-19 23:32:19,259 - INFO - Batch 6 sent succesfully.
-2025-04-19 23:32:19,273 - DEBUG - Starting new HTTPS connection (1): api.instabuy.com.br:443
-2025-04-19 23:32:20,708 - DEBUG - https://api.instabuy.com.br:443 "PUT /store/products HTTP/1.1" 200 None
-2025-04-19 23:32:20,710 - INFO - Batch 7 sent succesfully.
-2025-04-19 23:32:20,724 - DEBUG - Starting new HTTPS connection (1): api.instabuy.com.br:443
-2025-04-19 23:32:22,108 - DEBUG - https://api.instabuy.com.br:443 "PUT /store/products HTTP/1.1" 200 None
-2025-04-19 23:32:22,110 - INFO - Batch 8 sent succesfully.
-2025-04-19 23:32:22,112 - DEBUG - Starting new HTTPS connection (1): api.instabuy.com.br:443
-2025-04-19 23:32:22,747 - DEBUG - https://api.instabuy.com.br:443 "PUT /store/products HTTP/1.1" 200 None
-2025-04-19 23:32:22,749 - INFO - Batch 9 sent succesfully.
+2025-04-20 00:23:44,091 - INFO - Starting process_csv_to_batches function.
+2025-04-20 00:23:46,085 - INFO - Finished process_csv_to_batches function.
+2025-04-20 00:23:46,086 - INFO - Starting send_to_api function.
+2025-04-20 00:23:46,087 - WARNING - python-dotenv could not parse statement starting at line 1
+2025-04-20 00:23:46,087 - WARNING - python-dotenv could not parse statement starting at line 2
+2025-04-20 00:23:46,088 - WARNING - python-dotenv could not parse statement starting at line 3
+2025-04-20 00:23:46,088 - WARNING - python-dotenv could not parse statement starting at line 4
+2025-04-20 00:23:47,578 - INFO - Batch 1 sent succesfully.
+2025-04-20 00:23:49,081 - INFO - Batch 2 sent succesfully.
+2025-04-20 00:23:50,499 - INFO - Batch 3 sent succesfully.
+2025-04-20 00:23:51,907 - INFO - Batch 4 sent succesfully.
+2025-04-20 00:23:53,452 - INFO - Batch 5 sent succesfully.
+2025-04-20 00:23:54,897 - INFO - Batch 6 sent succesfully.
+2025-04-20 00:23:56,427 - INFO - Batch 7 sent succesfully.
+2025-04-20 00:23:57,788 - INFO - Batch 8 sent succesfully.
+2025-04-20 00:23:58,447 - INFO - Batch 9 sent succesfully.
+2025-04-20 00:23:58,448 - INFO - Finished send_to_api function.
+2025-04-20 00:27:18,038 - INFO - Starting process_csv_to_batches function.
+2025-04-20 00:27:20,371 - INFO - Finished process_csv_to_batches function.
+2025-04-20 00:27:20,372 - INFO - Starting send_to_api function.
+2025-04-20 00:27:21,866 - INFO - Batch 1 sent succesfully.
+2025-04-20 00:27:23,226 - INFO - Batch 2 sent succesfully.
+2025-04-20 00:27:25,348 - INFO - Batch 3 sent succesfully.
+2025-04-20 00:27:26,736 - INFO - Batch 4 sent succesfully.
+2025-04-20 00:27:28,088 - INFO - Batch 5 sent succesfully.
+2025-04-20 00:27:29,426 - INFO - Batch 6 sent succesfully.
+2025-04-20 00:27:30,787 - INFO - Batch 7 sent succesfully.
+2025-04-20 00:27:32,171 - INFO - Batch 8 sent succesfully.
+2025-04-20 00:27:32,844 - INFO - Batch 9 sent succesfully.
+2025-04-20 00:27:32,844 - INFO - Finished send_to_api function.
