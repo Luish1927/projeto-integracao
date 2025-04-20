@@ -1,0 +1,122 @@
+{
+    "products": [
+        {
+            "internal_code": "7511",
+            "name": "Whisky Escocês Blended Red Johnnie Walker Garrafa 1l",
+            "unit_type": "UNI",
+            "price": 10.62,
+            "visible": false,
+            "stock": 701.0,
+            "barcodes": [
+                "5000267013626"
+            ],
+            "promo_price": null,
+            "weight": null,
+            "length": null,
+            "width": null,
+            "height": null,
+            "promo_end_at": "2020-03-31T23:59:59.672000-03:00",
+            "promo_start_at": "2020-03-31T23:59:59.672000-03:00"
+        },
+        {
+            "internal_code": "14916",
+            "name": "Whisky Escocês Blended White Horse Garrafa 1l",
+            "unit_type": "UNI",
+            "price": 4.36,
+            "visible": false,
+            "stock": 792.0,
+            "barcodes": [
+                "5000265090056"
+            ],
+            "promo_price": null,
+            "weight": null,
+            "length": null,
+            "width": null,
+            "height": null,
+            "promo_end_at": "2020-03-31T23:59:59.672000-03:00",
+            "promo_start_at": "2020-03-31T23:59:59.672000-03:00"
+        },
+        {
+            "internal_code": "7510",
+            "name": "Whisky Old Ville 1L",
+            "unit_type": "UNI",
+            "price": 56.91,
+            "visible": false,
+            "stock": 825.0,
+            "barcodes": [],
+            "promo_price": null,
+            "weight": null,
+            "length": null,
+            "width": null,
+            "height": null,
+            "promo_end_at": "2020-03-31T23:59:59.672000-03:00",
+            "promo_start_at": "2020-03-31T23:59:59.672000-03:00"
+        },
+        {
+            "internal_code": "7506",
+            "name": "Whisky Passport Scotch 1Lt",
+            "unit_type": "UNI",
+            "price": 21.7,
+            "visible": false,
+            "stock": 508.0,
+            "barcodes": [],
+            "promo_price": null,
+            "weight": null,
+            "length": null,
+            "width": null,
+            "height": null,
+            "promo_end_at": "2020-03-31T23:59:59.672000-03:00",
+            "promo_start_at": "2020-03-31T23:59:59.672000-03:00"
+        },
+        {
+            "internal_code": "13199",
+            "name": "Xarope Groselha Milani 900ml",
+            "unit_type": "UNI",
+            "price": 2.37,
+            "visible": false,
+            "stock": 969.0,
+            "barcodes": [
+                "7891046021820"
+            ],
+            "promo_price": null,
+            "weight": null,
+            "length": null,
+            "width": null,
+            "height": null,
+            "promo_end_at": "2020-03-31T23:59:59.672000-03:00",
+            "promo_start_at": "2020-03-31T23:59:59.672000-03:00"
+        },
+        {
+            "internal_code": "11299",
+            "name": "Yakisoba Sadia 600G",
+            "unit_type": "UNI",
+            "price": 36.28,
+            "visible": false,
+            "stock": 108.0,
+            "barcodes": [],
+            "promo_price": null,
+            "weight": 0.6,
+            "length": null,
+            "width": null,
+            "height": null,
+            "promo_end_at": "2020-03-31T23:59:59.672000-03:00",
+            "promo_start_at": "2020-03-31T23:59:59.672000-03:00"
+        },
+        {
+            "internal_code": "12024",
+            "name": "Yo Yo Brinquedo 100G",
+            "unit_type": "UNI",
+            "price": 15.31,
+            "visible": false,
+            "stock": 538.0,
+            "barcodes": [],
+            "promo_price": null,
+            "weight": 0.1,
+            "length": null,
+            "width": null,
+            "height": null,
+            "promo_end_at": "2020-03-31T23:59:59.672000-03:00",
+            "promo_start_at": "2020-03-31T23:59:59.672000-03:00"
+        }
+    ]
+}
