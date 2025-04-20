@@ -7,12 +7,73 @@ import json
 import logging
 from dotenv import load_dotenv
 import os
+from datetime import datetime
 
 
 logging.basicConfig(filename='processing.log', level=logging.INFO,
                     format='%(asctime)s - %(levelname)s - %(message)s')
 
 
+def ptbr_to_iso_format(date_str):
+    """
+    This function is responsible for formating the date string from the "Data termino promocao" column from the format "31-MAR-24" to the ISO format "2024-03-31T00:00:00".
+    It uses regex to match the date format and convert it to the desired format.\
+    
+    :param date_str: The date string in the format "31-MAR-24"
+    :return: The date string in the ISO format "2024-03-31T00:00:00" or None if the input is invalid.
+    """
+    months_pt = {
+        'JAN': '01', 'FEV': '02', 'MAR': '03', 'ABR': '04', 'MAI': '05', 'JUN': '06',
+        'JUL': '07', 'AGO': '08', 'SET': '09', 'OUT': '10', 'NOV': '11', 'DEZ': '12'
+    }
+
+    date_regex = re.compile(r'(\d{1,2})-([A-Z]{3})-(\d{2,4})', re.IGNORECASE)
+
+    match = date_regex.match(date_str.upper())
+    if not match:
+        return None
+    day, month_abbr, year = match.groups()
+    month = months_pt.get(month_abbr)
+    if not month:
+        return None
+    if len(year) == 2:
+        year = '20' + year
+    try:
+        return f"{year}-{month}-{int(day):02d}T00:00:00"
+    except:
+        return None
+
+def process_promo_dates(date):
+    """
+    This function processes the 'Data termino promocao' column in a DataFrame to extract and format promotional start 
+    and end dates. It handles different date formats and converts them into ISO 8601 format.
+
+    - For date ranges, the function splits the string into start and end dates and converts them to ISO format.
+    - For single dates, it assumes the date is the end date and converts it to ISO format.
+      convert it to ISO format.
+    - Invalid or missing dates are handled gracefully and set to None.
+    
+    :param df: pandas.DataFrame - The input DataFrame containing a column named 'Data termino promocao'.
+    :return: pandas.DataFrame - The modified DataFrame with two new columns: 'promo_start_at' and 'promo_end_at'.
+    """
+    if pd.isnull(date) or str(date).lower() == 'nan':
+        return None, None
+
+    if '/' in date:
+        date_segments = date.split('/')
+        try:
+            promo_start = datetime.fromisoformat(date_segments[0]).isoformat()
+        except:
+            promo_start = None
+        try:
+            promo_end = datetime.fromisoformat(date_segments[1]).isoformat()
+        except:
+            promo_end = None
+    else:
+        promo_start = None
+        promo_end = ptbr_to_iso_format(date)
+
+    return promo_start, promo_end
 
 def float_to_string(barcode):
     """
@@ -210,8 +271,7 @@ def process_csv_to_batches(input_path):
     df['internal_code'] = df['Código interno'].apply(internal_code_formater)  
     df['stock'] = df['estoque'].apply(stock_formater) 
     
-    df['promo_end_at'] = df["Data termino promocao"].apply(lambda x: "2020-03-31T23:59:59.672000-03:00")
-    df['promo_start_at'] = df["Data termino promocao"].apply(lambda x: "2020-03-31T23:59:59.672000-03:00")
+    df[['promo_start_at', 'promo_end_at']] = df['Data termino promocao'].apply(process_promo_dates).apply(pd.Series)
 
     
     source_columns = ['Nome', 'Código de barras', 'Promocao', 'Preço regular', 'ativo', 'Código interno', 'estoque', 'Data termino promocao']
