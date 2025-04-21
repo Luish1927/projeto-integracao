@@ -146,7 +146,7 @@ During the implementation of this project, I encountered an inconsistency betwee
 
 The following is an example of the data sent to the API, which aligns with the structure and field types described in the documentation:
 
-![Request Payload](screenshot/request-payload.png)
+![Request Payload](screenshots/request-payload.png)
 
 ---
 
@@ -154,7 +154,7 @@ The following is an example of the data sent to the API, which aligns with the s
 
 According to the documentation, a successful submission should result in a response like this:
 
-![Expected Response](screenshot/expected-response.png)
+![Expected Response](screenshots/expected-response.png)
 
 ---
 
@@ -162,7 +162,7 @@ According to the documentation, a successful submission should result in a respo
 
 Despite using valid and complete data, the API returned the following response indicating that **no items were processed**, even though the request was successful (`http_status: 200`):
 
-![Unexpected Response](screenshot/unexpected-response.png)
+![Unexpected Response](screenshots/unexpected-response.png)
 
 This indicates that the data is being received, but not registered or updated as expected — which contradicts the documented behavior.
 
@@ -172,9 +172,9 @@ This indicates that the data is being received, but not registered or updated as
 
 Here’s a snippet from the documentation showing the expected structure — which my payload **exactly matches**:
 
-![Sample from Docs](screenshot/api-sample.png)
+![Sample from Docs](screenshots/api-sample.png)
 
-![Integration reference](screenshot/integration-reqs.png)
+![Integration reference](screenshots/integration-reqs.png)
 
 ---
 
