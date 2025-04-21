@@ -76,7 +76,7 @@ pip install -r requirements.txt
 To execute the pipeline, run the following command:
 
 ```bash
-python main.py
+python3 main.py
 ```
 
 This will process the data, create batches, and send them to the API.
